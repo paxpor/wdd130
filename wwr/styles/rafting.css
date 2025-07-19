@@ -9,8 +9,18 @@
 
 header {
     background-color: var(--primary-color);
+    display:flex;
+    justify-content: space-between;
     color: var(--accent1-color);
-    align-self: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
 }
 
 header img {
@@ -19,7 +29,7 @@ header img {
 }
 
 * {
-    margin: 10px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -55,7 +65,6 @@ nav img{
 
 .hero {
     position: relative;
-    align-self: center;
 }
 
 .hero img {
@@ -64,7 +73,7 @@ nav img{
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -75,15 +84,38 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     font-style: var(--body-font);
     margin: 5px;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
 }
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 150px;
     height: auto;
-    margin: 16px;
+    margin-left: 1rem;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .socialmedia {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
 }
