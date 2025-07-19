@@ -1,4 +1,4 @@
-.root {
+:root {
     --primary-color: #a28e7d; 
     --secondary-color: #6fc8e1;
     --accent1-color: #007c91;
@@ -9,7 +9,8 @@
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
+    align-self: center;
 }
 
 header img {
@@ -18,14 +19,14 @@ header img {
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 header, main, footer {
@@ -35,7 +36,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 nav, p, section, article {
@@ -54,6 +55,7 @@ nav img{
 
 .hero {
     position: relative;
+    align-self: center;
 }
 
 .hero img {
@@ -63,7 +65,7 @@ nav img{
 }
 
 h1 {
-    position: absolute;
+    position: absolute center;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -76,6 +78,7 @@ h1 {
 article {
     position: absolute;
     font-style: var(--body-font);
+    margin: 5px;
 }
 
 .hero article img {
@@ -83,6 +86,4 @@ article {
     width: 125px;
     height: auto;
     margin: 16px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
