@@ -51,3 +51,38 @@ nav img{
 .socialmedia a {
     text-decoration: none;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent2-color);
+    color: #fff;
+}
+
+article {
+    position: absolute;
+    font-style: var(--body-font);
+}
