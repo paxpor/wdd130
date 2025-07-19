@@ -62,15 +62,6 @@ nav img{
     height: auto;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
-    height: auto;
-    margin: 16px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 h1 {
     position: absolute;
     top: 20px;
@@ -85,4 +76,13 @@ h1 {
 article {
     position: absolute;
     font-style: var(--body-font);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
