@@ -92,9 +92,9 @@ h1 {
 }
 
 .hero article img {
+    float: right;
     width: 150px;
     height: auto;
-    margin-left: 1rem;
     border-radius: 4px;
 }
 
