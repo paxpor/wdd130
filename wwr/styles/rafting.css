@@ -26,7 +26,12 @@ header, main, footer {
 
 header {
     background-color: var(--primary-color);
-    display: flex;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    border-bottom: 1px solid var(--secondary-color);
+    max-width: 1000px;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
