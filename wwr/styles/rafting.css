@@ -33,7 +33,6 @@ header {
     border-bottom: 1px solid var(--secondary-color);
     max-width: 1000px;
     justify-content: space-between;
-    align-items: center;
     padding: 1rem;
 }
 
