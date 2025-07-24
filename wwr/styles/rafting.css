@@ -118,10 +118,26 @@ section p {
     color: var(--accent1-color);
 }
 
+section figure {
+    border: thin solid var(--secondary-color);
+    background-color: var(--accent2-color);
+    font-family: var(--body-font);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: auto;
+    padding: .5rem;
+    max-width: 520px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
 section img {
-    width: 150px;
+    width: 500px;
     height: auto;
-    margin: 10px;
+    margin: 1px;
     border: 2px solid var(--secondary-color);
     border-radius: 4px;
 }
