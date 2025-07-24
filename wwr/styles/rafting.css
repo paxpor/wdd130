@@ -125,7 +125,7 @@ section figure {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
-    border-radius: auto;
+    border-radius: 4px;
     padding: .5rem;
     max-width: 520px;
     margin: auto;
