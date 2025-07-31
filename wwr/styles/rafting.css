@@ -27,12 +27,10 @@ header, main, footer {
 header {
     background-color: var(--primary-color);
     display: grid;
-    grid-template-columns: 120px 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 120px 1fr;
     align-items: center;
     border-bottom: 1px solid var(--secondary-color);
     max-width: 1000px;
-    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -41,8 +39,14 @@ header img.logo {
     height: auto;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
 nav a {
-    margin: 0 10px;
     text-decoration: none;
     color: var(--accent1-color);
     font-weight: bold;
@@ -121,20 +125,19 @@ section figure {
     border: thin solid var(--secondary-color);
     background-color: var(--accent2-color);
     font-family: var(--body-font);
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
     border-radius: 4px;
     padding: .5rem;
     max-width: 520px;
     margin: auto;
     text-align: center;
     color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
 }
 
 section img {
-    width: 500px;
+    width: 100%;
     height: auto;
     margin: 1px;
     border: 2px solid var(--secondary-color);
@@ -144,7 +147,6 @@ section img {
 footer {
     background-color: var(--primary-color);
     color: var(--accent1-color);
-    text-align: center;
     padding: 1rem;
     margin-top: 2rem;
 }
