@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset ="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD130 | HTML Form - User Poll</title>
+        <link rel="stylesheet" href="styles/poll-form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Bebas+Neue:300,400,700&family=Montserrat:300,400,700&display=swap">
+    </head>
+    <body> 
+        <header>
+            <h1>WDD130 | Paxton Porter | HTML Form - User Poll</h1>
+        </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                    <h2>User Poll</h2>
+                    <p>Please fill out the form below to participate in our user poll. Your feedback is valuable to us!</p>
+                    <div class="name"><label>Full Name: <input type="text" name="fullname"></label></div>
+                    <div class="email"><label>Email: <input type="text" name="useremail"></label></div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="question">
+                    <label for="age">What is your age range?</label>
+                    <select id="age" name="age">
+                        <option value="under-18">Under 18</option>
+                        <option value="18-24">18-24</option>
+                        <option value="25-34">25-34</option>
+                        <option value="35-44">35-44</option>
+                        <option value="45-54">45-54</option>
+                        <option value="55-64">55-64</option>
+                        <option value="65-plus">65+</option>
+                    </select>
+                    <label for="browser">What is you go to internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Google Chrome</option>
+                        <option value="firefox">Mozilla Firefox</option>
+                        <option value="safari">Apple Safari</option>
+                        <option value="edge">Microsoft Edge</option>
+                        <option value="opera">Opera</option>
+                        <option value="brave">Brave</option>
+                        <option value="internet-explorer">Internet Explorer</option>
+                        <option value="duckduckgo">DuckDuckGo</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="pet">Do you have a pet?</label>
+                    <input type="checkbox" id="pet" name="pet" value="yes">
+                    <label for="feedback">List the places youve lived: </label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback here..."></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>©2025 | Html Form - User Poll Activity | Paxton Porter</p>
+    </footer>
+    </body>
+</html>
