@@ -176,3 +176,153 @@ footer .socialmedia img {
     width: 24px;
     height: 24px;
 }
+
+.contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-family: var(--body-font);
+    color: #333;
+}
+
+.contact-form h2 {
+    color: var(--accent2-color);
+    margin-bottom: 1rem;
+    font-family: var(--heading-font);
+}
+
+.contact-form label {
+    display: block;
+    margin: 0.6rem 0 0.3rem 0;
+    font-weight: 600;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: var(--accent1-color);
+    outline: none;
+}
+
+.contact-form fieldset {
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    padding: 0.75rem 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form legend {
+    font-weight: 700;
+    color: var(--accent1-color);
+}
+
+.contact-form fieldset label {
+    display: inline-block;
+    margin-right: 1.5rem;
+    font-weight: normal;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 0.3rem;
+    vertical-align: middle;
+}
+
+.contact-form input[type="checkbox"] {
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.contact-form button#submit-btn {
+    background-color: var(--accent2-color);
+    color: white;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.contact-form button#submit-btn:hover,
+.contact-form button#submit-btn:focus {
+    background-color: var(--accent1-color);
+    outline: none;
+}
+
+.employee-profiles {
+    max-width: 840px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.employee-profiles h2 {
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.profile-grid figure {
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.profile-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.75rem;
+    border: 3px solid var(--secondary-color);
+}
+
+.profile-grid figcaption {
+    font-family: var(--body-font);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.map-container {
+    max-width: 840px;
+    margin: 1.5rem auto 3rem auto;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
